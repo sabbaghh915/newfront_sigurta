@@ -63,8 +63,8 @@
     --danger: var(--destructive);
     --danger-foreground: var(--destructive-foreground);
 
-    --border: 280 15% 88%;
-    --input: 280 15% 88%;
+    --border: 280 40% 78%;
+    --input: 280 40% 85%;
     --ring: 280 45% 42%;
 
     --radius: 0.5rem;
