@@ -7,7 +7,7 @@ export default function NotFound() {
   const navigate = useNavigate();
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-green-50 via-white to-gray-50 flex items-center justify-center p-4" dir="rtl">
+    <div className="min-h-screen flex items-center justify-center p-4" dir="rtl">
       <Card className="max-w-md w-full shadow-xl bg-white/95 backdrop-blur-sm">
         <CardContent className="text-center p-8">
           <div className="mb-6">

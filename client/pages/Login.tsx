@@ -99,7 +99,7 @@ localStorage.setItem("centerIp", centerIp || "");
 
   return (
     
-    <div className="min-h-screen flex items-center justify-center p-4 bg-white " dir="rtl">
+    <div className="min-h-screen flex items-center justify-center p-4" dir="rtl">
       <div className="w-full max-w-md space-y-8">
         
         {/* Logo and Branding */}
@@ -213,6 +213,7 @@ localStorage.setItem("centerIp", centerIp || "");
                 className={cn(
                   "w-full h-12 text-lg font-medium",
                   "bg-primary hover:bg-primary-600 text-primary-foreground",
+                  "border-2 border-primary",
                   "transition-all duration-200 shadow-md hover:shadow-lg",
                   isLoading && "opacity-50 cursor-not-allowed"
                 )}
@@ -241,7 +242,7 @@ localStorage.setItem("centerIp", centerIp || "");
         </Card>
 
         {/* Demo Credentials */}
-        <Card className="shadow-lg border-info-200 bg-info-50">
+        <Card className="shadow-lg bg-info-50">
           <CardHeader>
             <CardTitle className="text-info-800 text-lg">
               بيانات تسجيل الدخول المتاحة
@@ -282,4 +283,3 @@ localStorage.setItem("centerIp", centerIp || "");
     </div>
   );
 }
-
