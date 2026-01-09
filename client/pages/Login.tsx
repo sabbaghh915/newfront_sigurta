@@ -213,6 +213,7 @@ localStorage.setItem("centerIp", centerIp || "");
                 className={cn(
                   "w-full h-12 text-lg font-medium",
                   "bg-primary hover:bg-primary-600 text-primary-foreground",
+                  "border-2 border-primary",
                   "transition-all duration-200 shadow-md hover:shadow-lg",
                   isLoading && "opacity-50 cursor-not-allowed"
                 )}
@@ -282,4 +283,3 @@ localStorage.setItem("centerIp", centerIp || "");
     </div>
   );
 }
-
