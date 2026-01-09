@@ -12,8 +12,8 @@
    * All color variables are expressed as HSL values for Tailwind CSS
   */
     :root {
-    /* Light purple background gradient */
-    --background: 280 30% 95%;
+    /* Purple background */
+    --background: 280 50% 88%;
     --foreground: 0 0% 9%;
 
     --card: 0 0% 100%;
