@@ -163,8 +163,8 @@
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    /* Rich vibrant purple gradient background */
-    background-image: linear-gradient(135deg, #6d28d9 0%, #5b21b6 25%, #4c1d95 50%, #5b21b6 75%, #7c3aed 100%) !important;
+    /* Light purple gradient background */
+    background-image: linear-gradient(135deg, #f3e8ff 0%, #ede9fe 25%, #ddd6fe 50%, #ede9fe 75%, #f5f3ff 100%) !important;
     background-attachment: fixed;
     background-repeat: no-repeat;
     min-height: 100vh;
