@@ -158,7 +158,7 @@
     @apply bg-background text-foreground font-arabic;
     line-height: 1.6;
     /* Rich purple gradient background */
-    background: linear-gradient(135deg, hsl(280 35% 93%) 0%, hsl(270 40% 85%) 50%, hsl(280 30% 90%) 100%);
+    background: linear-gradient(135deg, hsl(280 55% 80%) 0%, hsl(270 60% 75%) 50%, hsl(280 50% 82%) 100%);
   }
 
   [dir="rtl"] {
