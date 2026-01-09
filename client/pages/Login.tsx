@@ -242,7 +242,7 @@ localStorage.setItem("centerIp", centerIp || "");
         </Card>
 
         {/* Demo Credentials */}
-        <Card className="shadow-lg border-info-200 bg-info-50">
+        <Card className="shadow-lg bg-info-50">
           <CardHeader>
             <CardTitle className="text-info-800 text-lg">
               بيانات تسجيل الدخول المتاحة
